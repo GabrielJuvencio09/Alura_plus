@@ -49,6 +49,10 @@
         font-size: 50%;
         text-align: center;
     }
+    .container{
+        max-height: 75em;
+    }
+
     
       .container__caixa{ 
         height: 50%;
@@ -65,11 +69,33 @@
      .container__botao2{
         margin: 0 10em 2em 10em;
         }
+        .desciçao__titulo{
+            font-size: 3.5em;
 
+        }
+        .secundario{
+            max-height: 50em;
+            align-items: baseline;
+           display: flex;
+           flex-direction: column;
+            
+        }
+
+        .terciario{
+            max-width: auto;
+            margin: 10em;
+            max-height: 50em;
+        }
+
+        .informaçao__descriçao{
+            margin: 5% ;
+        }
+       
         .final__links{
-            f
+            align-items: center;
             display: flex;
-            flex-wrap: wrap ;
+            flex-wrap: wrap;
+            justify-content:center ;
         }
   
     
