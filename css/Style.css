@@ -30,6 +30,7 @@
   }
   
   .container {
+    
     display: grid;
     grid-template-columns: 50% 50%;
     height: 100vh;
@@ -124,7 +125,7 @@
   
   .informaçao__descriçao {
     margin: 10em 0 2em 0;
-    width: 35em;
+    width: 100%;
     font-weight: 400;
     font-size: 16px;
     color: var(--cinza-secundario);
